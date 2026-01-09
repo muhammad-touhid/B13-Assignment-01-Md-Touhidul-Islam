@@ -200,6 +200,11 @@ nav .btn:hover {
   gap: 60px;
 }
 
+#img-text-section .img-text-section-container img {
+  max-width: 600px;
+  max-height: 600px;
+}
+
 #img-text-section .img-text-section-container .text-section {
   padding: 120px 0;
 }
