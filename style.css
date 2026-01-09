@@ -42,13 +42,14 @@
   color: #627382;
   font-size: 16px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 /* main style */
 
 body {
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 header {
@@ -83,6 +84,8 @@ nav .btn:hover {
   background: none;
   border: 1px solid #469165;
   color: #469165;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 #hero {
@@ -106,6 +109,10 @@ nav .btn:hover {
   margin: 0 auto;
   border-radius: 1000px;
   margin-bottom: 16px;
+}
+
+#hero .early-access-btn span {
+  font-size: 20px;
 }
 
 #hero h1 {
@@ -138,11 +145,15 @@ nav .btn:hover {
 #hero .btn:hover {
   background: none;
   border: 1px solid #fff;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 #hero .hero-button .btn:nth-child(2):hover {
   background-color: #469165;
   border: 1px solid #469165;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 #card-section {
@@ -200,7 +211,7 @@ nav .btn:hover {
   gap: 60px;
 }
 
-#img-text-section .img-text-section-container img {
+#img-text-section .img-text-section-container .img-section img {
   max-width: 600px;
   max-height: 600px;
 }
@@ -209,7 +220,7 @@ nav .btn:hover {
   padding: 120px 0;
 }
 
-#img-text-section .img-text-section-container .text-section p {
+#img-text-section .img-text-section-container .text-section p:nth-child(1) {
   margin-bottom: 16px;
   text-transform: uppercase;
   max-width: 600px;
@@ -259,6 +270,8 @@ nav .btn:hover {
   background-color: #fff;
   border: 1px solid #469165;
   color: #469165;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 #cta .cta-container .cta-p {
@@ -316,6 +329,10 @@ footer .footer-container .top-footer ul li {
   background-color: #fff;
   padding: 3px;
   border-radius: 1000px;
+}
+
+footer .footer-container .top-footer ul li:hover {
+  cursor: pointer;
 }
 
 footer .footer-container .bottom-footer p {
