@@ -156,21 +156,21 @@ nav .btn:hover {
   cursor: pointer;
 }
 
-#card-section {
+#notes-section {
   padding-top: 80px;
   background-color: #f7f6f2;
 }
 
-#card-section .container {
+#notes-section .container {
   text-align: center;
 }
 
-#card-section .card-parent {
+#notes-section .card-parent {
   display: flex;
   gap: 24px;
 }
 
-#card-section .card-parent .card {
+#notes-section .card-parent .card {
   padding: 24px;
   background-color: #fff;
   border-radius: 8px;
@@ -178,7 +178,7 @@ nav .btn:hover {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
 
-#card-section .card-parent .card img {
+#notes-section .card-parent .card img {
   background-color: #f95555;
   padding: 10px;
   border-radius: 1000px;
@@ -186,7 +186,7 @@ nav .btn:hover {
   margin-bottom: 16px;
 }
 
-#card-section .card-parent .card h3 {
+#notes-section .card-parent .card h3 {
   color: #001931;
   font-size: 24px;
   font-weight: 600;
@@ -194,7 +194,7 @@ nav .btn:hover {
   margin-bottom: 16px;
 }
 
-#card-section .card-parent .card p {
+#notes-section .card-parent .card p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -202,31 +202,34 @@ nav .btn:hover {
   margin-bottom: 30px;
 }
 
-#img-text-section {
+#second-brain-section {
   padding: 120px 0;
 }
 
-#img-text-section .img-text-section-container {
+#second-brain-section .second-brain-section-container {
   display: flex;
   gap: 60px;
 }
 
-#img-text-section .img-text-section-container .img-section img {
+#second-brain-section .second-brain-section-container .img-section img {
   max-width: 600px;
   max-height: 600px;
 }
 
-#img-text-section .img-text-section-container .text-section {
+#second-brain-section .second-brain-section-container .text-section {
   padding: 120px 0;
 }
 
-#img-text-section .img-text-section-container .text-section p:nth-child(1) {
+#second-brain-section
+  .second-brain-section-container
+  .text-section
+  p:nth-child(1) {
   margin-bottom: 16px;
   text-transform: uppercase;
   max-width: 600px;
 }
 
-#img-text-section .img-text-section-container .text-section ul {
+#second-brain-section .second-brain-section-container .text-section ul {
   list-style: none;
   margin-top: 40px;
   display: flex;
@@ -234,7 +237,7 @@ nav .btn:hover {
   gap: 16px;
 }
 
-#img-text-section .img-text-section-container .text-section ul li {
+#second-brain-section .second-brain-section-container .text-section ul li {
   list-style: none;
   color: #001931;
   font-size: 16px;
@@ -245,28 +248,28 @@ nav .btn:hover {
   gap: 6px;
 }
 
-#img-text-section .img-text-section-container .text-section ul li img {
+#second-brain-section .second-brain-section-container .text-section ul li img {
   width: 20px;
   height: 20px;
 }
 
-#cta {
+#early-access-section {
   padding-bottom: 120px;
 }
 
-#cta .cta-container {
+#early-access-section .early-access-section-container {
   background-color: #f7f6f2;
   padding: 80px 40px;
   border-radius: 12px;
   text-align: center;
 }
 
-#cta .cta-container .btn {
+#early-access-section .early-access-section-container .btn {
   margin-top: 24px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-#cta .btn:hover {
+#early-access-section .btn:hover {
   background-color: #fff;
   border: 1px solid #469165;
   color: #469165;
@@ -274,7 +277,7 @@ nav .btn:hover {
   cursor: pointer;
 }
 
-#cta .cta-container .cta-p {
+#early-access-section .early-access-section-container .early-access-section-p {
   color: #627382;
   font-size: 16px;
   font-weight: 400;
@@ -333,6 +336,11 @@ footer .footer-container .top-footer ul li {
 
 footer .footer-container .top-footer ul li:hover {
   cursor: pointer;
+}
+
+footer .footer-container .top-footer ul li a {
+  text-decoration: none;
+  color: #001931;
 }
 
 footer .footer-container .bottom-footer p {
