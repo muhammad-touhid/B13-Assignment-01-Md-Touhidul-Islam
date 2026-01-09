@@ -19,7 +19,7 @@
 .btn {
   background-color: #469165;
   padding: 12px 16px;
-  border: none;
+  border: 1px solid #469165;
   border-radius: 4px;
   color: #ffffff;
   font: 16px;
@@ -79,6 +79,12 @@ nav .menu a {
   font-weight: 500;
 }
 
+nav .btn:hover {
+  background: none;
+  border: 1px solid #469165;
+  color: #469165;
+}
+
 #hero {
   background-image: url(./assets/hero-bg.png);
   padding: 115px 120px 180px;
@@ -127,6 +133,16 @@ nav .menu a {
 #hero .hero-button .btn:nth-child(2) {
   background: none;
   border: 1px solid #fff;
+}
+
+#hero .btn:hover {
+  background: none;
+  border: 1px solid #fff;
+}
+
+#hero .hero-button .btn:nth-child(2):hover {
+  background-color: #469165;
+  border: 1px solid #469165;
 }
 
 #card-section {
@@ -232,6 +248,12 @@ nav .menu a {
 #cta .cta-container .btn {
   margin-top: 24px;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+#cta .btn:hover {
+  background-color: #fff;
+  border: 1px solid #469165;
+  color: #469165;
 }
 
 #cta .cta-container .cta-p {
